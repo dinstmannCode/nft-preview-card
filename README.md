@@ -17,7 +17,7 @@ Mobile
 ### Links
 
 - Solution URL: [Github](https://github.com/dinstmannCode/nft-preview-card)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://nft-preview-card-dinstmanncode.vercel.app/)
 
 ## My process
 
