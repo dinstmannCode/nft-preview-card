@@ -1,33 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="assets/style.css">
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
   
-  <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body>
+    <main>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+      <div class="card-container">
 
-  Equilibrium #3429
+        <div class="card-product">
+          <img class="card-product-img" src="assets/images/image-equilibrium.jpg" alt="um centralizado colorido nas cores rosa e azul, centralizado na imagem com um fundo azul" />
+          <div class="card-product-img-hover">
+            <img src="assets/images/icon-view.svg" alt="">
+          </div>
+        </div>
 
-  Our Equilibrium collection promotes balance and calm.
+        <div>          
+          <h2>Equilibrium #3429</h2>
+          <p>Our Equilibrium collection promotes balance and calm.</p>
+        </div>
 
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
+        <div class="card-info">
+          <div>
+            <img src="assets/images/icon-ethereum.svg" alt="icone de um diamante">
+            <label class="card-label">0.041 ETH</label>
+          </div>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+          <div>            
+            <img src="assets/images/icon-clock.svg" alt="icone de um relogio">
+            <label>3 days left</p>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="card-user">
+          <img class="card-user-img" src="assets/images/image-avatar.png" alt="um rosto masculino iluminado pela luz solar" />
+          <p>Creation of <span>Jules Wyvern</span></p>
+        </div>
+      </div>
+      
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/dinstmannCode" target="_blank">dinstmannCode</a>.
+      </div>
+    </footer>
+
+    
+  </body>
 </html>
